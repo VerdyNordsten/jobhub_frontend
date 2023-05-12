@@ -1,0 +1,19 @@
+.footer {
+    background-color: #5E50A1;
+    padding: 60px 70px;
+}
+
+.footer p {
+    max-width: 450px;
+}
+
+.logo {
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.footer hr {
+    border-top: 2px solid !important;
+    opacity: 0.50 !important;
+}

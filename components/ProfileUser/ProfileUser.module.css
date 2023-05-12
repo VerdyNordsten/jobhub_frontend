@@ -1,0 +1,82 @@
+.body {
+    background-color: #F6F7F8;
+    padding-bottom: 50px !important;
+}
+
+.back-purple {
+    height: 250px;
+    background-color: #5E50A1;
+}
+
+.profile-left {
+    background-color: #fff;
+    margin-top: -200px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+}
+
+.profile-right {
+    background-color: #fff;
+    margin-top: -200px;
+    border-radius: 5px;
+    border: none;
+}
+
+.skill {
+    background-color: rgba(251, 176, 23, 0.6);
+    padding: 3px 6px 3px 6px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #FBB017;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.btnedit {
+    text-align: center;
+    background-color: #5E50A1;
+    color: white !important;
+    border: 1px solid #5E50A1;
+}
+
+.btnhire {
+    text-align: center;
+    background-color: #5E50A1;
+    color: white !important;
+    border: 1px solid #5E50A1;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
+.imageprofile {
+    width: 120px;
+    height: 120px;
+}
+
+.companyprofile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+
+.imageproject {
+    height: 150px;
+    width: 100%
+}
+
+/* width di bawah 768px */
+@media (max-width: 768px) {
+    .profile-right {
+        margin-top: 20px;
+    }
+}

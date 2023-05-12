@@ -1,0 +1,67 @@
+/* side component */
+.side {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(https://s3-alpha-sig.figma.com/img/6a5f/6308/b9de1e2e658498c339524384fbdc112d?Expires=1678665600&Signature=GbfJD8x9RRLBmuY-nsFFGNq4m0ziQkeC25XSL58x5p8wUqqRIZFJ9tx8y3fEv9Znox16ZTqGnEF5ghXkOicEwnug1F7rROaMucXneyneRJRdG77uZHd3NYoPQ75cGA37SoM2HYaQd1WDe~XYVDkPNgT2YsPTRaRMC4m5IEpy08W426sLM5phjfmsUGbnGqoT28wxld5dEGGfJj4wXjvCR74mftQdL4ByVwbuSQRzVSnLAgRqqpTa~K1YBw-AMaJb~i60M5EMvYxmjg8LT0cUM0abpAqK35m8yCCJwVFKUgmUwPAZpGcyv8jS8Iw47cDaa~wzWH0P4-zlxFkt3uSOGg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.side::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(94, 80, 161, .7);
+}
+
+.side .content {
+    z-index: 999;
+}
+
+.side .content .icon {
+    position: absolute;
+    top: 50px;
+}
+
+/* auth component */
+.auth {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.auth .content {
+    width: 100%;
+    max-width: 330px;
+    margin-top: 40px;
+}
+
+/* width di atas 576px */
+@media (min-width: 576px) {
+    .auth {
+        height: 100vh;
+        flex-shrink: 0;
+        overflow: auto;
+    }
+}
+
+/* height di atas 600px */
+@media (min-height: 600px) {
+    .login {
+        align-items: center;
+    }
+}
+
+/* height di atas 950px */
+@media (min-height: 950px) {
+    .register {
+        align-items: center;
+    }
+}
