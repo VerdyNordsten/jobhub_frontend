@@ -20,7 +20,7 @@ export default function CustomNavbar() {
     if (token) {
       setIsLoggedIn(true);
       axios
-        .get("http://localhost:4444/api/v1/profile/worker", {
+        .get(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/profile/worker`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },

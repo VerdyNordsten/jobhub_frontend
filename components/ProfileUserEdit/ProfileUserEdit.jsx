@@ -33,7 +33,7 @@ export default function EditWorker() {
   useEffect(() => {
     const token = localStorage.getItem("token");
     axios
-      .get("http://localhost:4444/api/v1/user/profile", {
+      .get(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/user/profile`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -112,7 +112,7 @@ export default function EditWorker() {
     const token = localStorage.getItem("token");
     setLoading(true);
     axios
-      .put("http://localhost:4444/api/v1/user/edit-worker", editTalent, {
+      .put(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/user/edit-worker`, editTalent, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
