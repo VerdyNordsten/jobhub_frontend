@@ -124,59 +124,50 @@ NEXT_PUBLIC_API_URL = [BACKEND_URL]
 ## Screenshots
 
 <table>
- <tr>
-    <td><img width="650px" src="./documentation/home-page.png" border="0" border="0" alt="Home" /></td>
+<div align="center">
+  <tr>
+    <td><img width="850px" src="./documentation/home-page.png" alt="home-page" /></td>
   </tr>
   <tr>
     <td>Home Page</td>
   </tr>
   <tr>
-    <td><img width="350px" src="./documentation/home.png"  border="0" border="0" alt="3" /> </td>
-     <td><img width="350px" src="./documentation/booking-detail.png"  border="0" border="0" alt="4" /></td>
+    <td><img width="850px" src="./documentation/talent.png"  alt="talent" /> </td>
   </tr>
   <tr>
-    <td>Landing Page</td>
-    <td>Flight Detail</td>
-  </tr>
-    <tr>
-    <td><img width="350px" src="./documentation/my-booking.png"  border="0" border="0" alt="3" /> </td>
-    <td><img width="350px" src="./documentation/search-result.png"  border="0" border="0" alt="3" /> </td>
-  </tr>
-   <tr>
-    <td>My Booking</td>
-    <td>Search Result</td>
+    <td>Talent List</td>
   </tr>
   <tr>
-    <td><img width="350px" src="./documentation/profile.png"  border="0" border="0" alt="4" /></td>
-    <td><img width="350px" src="./documentation/detail-destination.png"  border="0" border="0" alt="4" /></td>
+    <td><img width="850px" src="./documentation/login.png"  alt="login" /> </td>
   </tr>
-   <tr>
-    <td>Profile</td>
-    <td>Detail Destination</td>
-  </tr>
-  </tr>
-    <tr>
-      <td><img width="350px" src="./documentation/tiket.png"  border="0" border="0" alt="3" /> </td>.
-      <td><img width="350px" src="./documentation/admin-login.png"  border="0" border="0" alt="4" /></td>
-    </tr>
-    <tr>
-      <td>Passanger Tiket</td>
-      <td>Admin Login</td>
-    </tr>
   <tr>
-    <td><img width="350px" src="./documentation/admin-airline-information.png"  border="0" border="0" alt="3" /> </td>
-    <td><img width="350px" src="./documentation/admin-create-flight.png"  border="0" border="0" alt="4" /></td>
+    <td>Login</td>
   </tr>
-    <tr>
-      <td>Airline Information - Admin</td>
-      <td>Create Flight - Admin</td>
-    </tr>
   <tr>
-    <td><img width="350px" src="./documentation/admin-update-destination.png"  border="0" border="0" alt="3" /> </td>
+    <td><img width="850px" src="./documentation/register.png"  alt="register" /> </td>
   </tr>
-   <tr>
-    <td>Destination Information - Admin</td>
+  <tr>
+    <td>Register</td>
   </tr>
+  <tr>
+    <td><img width="850px" src="./documentation/my-profile.png"  alt="my-profile" /> </td>
+  </tr>
+  <tr>
+    <td>My Profile</td>
+  </tr>
+  <tr>
+    <td><img width="850px" src="./documentation/edit-profile.png"  alt="edit-profile" /> </td>
+  </tr>
+  <tr>
+    <td>Edit Profile</td>
+  </tr>
+  <tr>
+    <td><img width="850px" src="./documentation/profile-user.png"  alt="profile-user" /> </td>
+  </tr>
+  <tr>
+    <td>Profile User</td>
+  </tr>
+</div>
 </table>
 
 ## Related Project
