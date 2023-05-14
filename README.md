@@ -125,12 +125,10 @@ NEXT_PUBLIC_API_URL = [BACKEND_URL]
 
 <table>
  <tr>
-    <td><img width="350px" src="./documentation/home-page.png" border="0" border="0" alt="Home" /></td>
-    <td>Home Page</td>
+    <td><img width="650px" src="./documentation/home-page.png" border="0" border="0" alt="Home" /></td>
   </tr>
   <tr>
-    <td><img width="350px" src="./documentation/Login.png" border="0"  border="0"  border="0"  alt="2" /></td>
-    <td>Login</td>
+    <td>Home Page</td>
   </tr>
   <tr>
     <td><img width="350px" src="./documentation/home.png"  border="0" border="0" alt="3" /> </td>
